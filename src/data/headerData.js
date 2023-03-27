@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+// import resume from '../assets/pdf/resume.pdf'
+import Image from '../assets/png/resume-image-3.jpg';
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
+    name: 'Chadive Sreenath',
+    title: "Front-end Web Developer",
+    desciption: "Failure doesn't mean you are a failure it just means you haven't succeeded yet ",
+    image: Image,
+    resumePdf: 'https://drive.google.com/file/d/1EkNoGNW2EFLYY5YvfJjMti9CE11HbbEo/view?usp=sharing'
 }

@@ -1,86 +1,84 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+import Crypto from "../../src/assets/png/ProjectImages/crypto-tracker-banner.png"
+import Netflix from "../../src/assets/png/ProjectImages/netflix-app-banner.png"
+import FoodApp from "../../src/assets/png/ProjectImages/food-app-banner.png"
+import Flatheads from "../../src/assets/png/ProjectImages/flat-heads-banner.png"
+import ZaraHome from "../../src/assets/png/ProjectImages/zara-home-banner.png"
+import CoSchedule from "../../src/assets/png/ProjectImages/co-schedule-banner.png"
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: one
+        projectName: 'Crypto Tracker',
+        projectDesc: 'A Web application, that allows you to keep track of how the value of coins is changing.',
+        tags: ['React', 'Firebase', 'Material Ui'],
+        code: 'https://github.com/ChadiveSreenath/crypto-hunter',
+        demo: 'https://crypto-hunter-181ac.web.app/',
+        image: Crypto
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
+        projectName: 'Flat-heads Clone',
+        projectDesc: 'An e-com web application to shop clothes and footwear for men and women.',
+        tags: ['React', 'firebase', 'Material Ui'],
+        code: 'https://github.com/ChadiveSreenath/flatheads-clone',
+        demo: 'https://flatheads-eight.vercel.app/',
+        image: Flatheads
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
+        projectName: 'Netflix CLone',
+        projectDesc: 'Netflix application clone where you can see list of movie and add your favourite movie to watchlist',
+        tags: ['React', 'Javscript', 'Material Ui'],
+        code: 'https://github.com/ChadiveSreenath/Netflix-Clone',
+        demo: 'mini-netflix-clone-peach.vercel.app/',
+        image: Netflix
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
+        projectName: 'Mini-food App',
+        projectDesc: 'mini food application where you can explore various types of food items with attractive user interface',
+        tags: ['React', 'Css'],
+        code: 'https://github.com/ChadiveSreenath/mini-food-app',
+        demo: 'https://mini-food-app-chadivesreenath.vercel.app/',
+        image: FoodApp
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: five
+        projectName: 'Co-Schedule Clone',
+        projectDesc: 'CoSchedule is Planning ,Organising and executing all things content marketing',
+        tags: ['JavaScript', 'Html', 'Css'],
+        code: 'https://github.com/ChadiveSreenath/Co-Schedule',
+        demo: 'co-schedule.vercel.app/',
+        image: CoSchedule
     },
     {
         id: 6,
-        projectName: 'Uber Lite',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: six
+        projectName: 'Zara Home Clone',
+        projectDesc: 'A humanitarian website that is dedicated to the manufacturing of home textiles.',
+        tags: ['Javascript(ES6)', "HTml", 'Css'],
+        code: 'https://github.com/ChadiveSreenath/Zara-Home',
+        demo: 'zara-home-clone.netlify.app/',
+        image: ZaraHome
     },
-    {
-        id: 7,
-        projectName: 'Stock Market App',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: seven
-    },
-    {
-        id: 8,
-        projectName: 'Car Pooling System',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: eight
-    },
+    // {
+    //     id: 7,
+    //     projectName: 'Stock Market App',
+    //     projectDesc: 'A simple stock market API app',
+    //     tags: ['React', 'Redux', 'Bootstrap'],
+    //     code: '',
+    //     demo: '',
+    //     image: seven
+    // },
+    // {
+    //     id: 8,
+    //     projectName: 'Car Pooling System',
+    //     projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
+    //     tags: ['Flutter', 'React'],
+    //     code: '',
+    //     demo: '',
+    //     image: eight
+    // },
 ]
 
 

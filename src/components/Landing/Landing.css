@@ -1,6 +1,6 @@
 .landing {
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
 }
@@ -156,6 +156,7 @@
     display: none;
   }
 }
+
 
 @media (max-width: 600px) {
   .landing--container {
