@@ -165,7 +165,7 @@ function Contacts() {
                 <input placeholder="John Doe" value={name} onChange={(e) => setName(e.target.value)} type="text" name="Name" className={`form-input ${classes.input}`} />
               </div>
               <div className="input-container">
-                <label htmlFor="Email" className={classes.label}>Email</label>
+                <label htmlFor="Email"  className={classes.label}>Email</label>
                 <input placeholder="John@doe.com" value={email} onChange={(e) => setEmail(e.target.value)} type="email" name="Email" className={`form-input ${classes.input}`} />
               </div>
               <div className="input-container">
@@ -215,7 +215,7 @@ function Contacts() {
               <div className={classes.detailsIcon}>
                 <FiAtSign />
               </div>
-              <p style={{ color: theme.tertiary }}>{contactsData.email}</p>
+              <p style={{ color: theme.tertiary , width:'max-content'}}>{contactsData.email}</p>
             </a>
             <a href={`tel:${contactsData.phone}`} className="personal-details">
               <div className={classes.detailsIcon}>
