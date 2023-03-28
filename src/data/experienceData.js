@@ -1,10 +1,10 @@
 export const experienceData = [
     // {
     //     id: 1,
-    //     company: 'Globex Corporation',
+    //     company: 'Attentive OS Pvt Ltd, Noida',
     //     jobtitle: 'Frontend Developer',
-    //     startYear: '2018',
-    //     endYear: '2019'
+    //     startYear: 'July 2021',
+    //     endYear: 'Present'
     // },
     // {
     //     id: 2,

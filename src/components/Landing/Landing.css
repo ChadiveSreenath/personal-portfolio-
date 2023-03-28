@@ -1,6 +1,6 @@
 .landing {
   height: 100vh;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -11,6 +11,7 @@
   justify-content: center;
   height: 100%;
   position: relative;
+  width: 100%;
 }
 
 .landing--img {
@@ -156,7 +157,6 @@
     display: none;
   }
 }
-
 
 @media (max-width: 600px) {
   .landing--container {

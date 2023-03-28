@@ -1,30 +1,41 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
+import React from "react";
+// import { Helmet } from "react-helmet";
 
-import { Navbar, Footer, Landing, About, Skills, Testimonials, Blog, Education, Contacts, Projects, Services, Achievement } from '../../components'
-import { headerData } from '../../data/headerData'
+import {
+  Navbar,
+  Footer,
+  Landing,
+  About,
+  Skills,
+  // Testimonials,
+  Blog,
+  Education,
+  // Experience,
+  Contacts,
+  Projects,
+  // Services,
+  // Achievement,
+} from "../../components";
+// import { headerData } from "../../data/headerData";
 
 function Main() {
-    return (
-        <div>
-            <Helmet>
-                <title>{headerData.name} - Porfolio</title>
-            </Helmet>
-            <Navbar />
-            <Landing />
-            <About />
-            <Education />
-            <Skills />
-            {/* <Experience /> */}
-            <Projects />
-            <Achievement />
-            <Services />
-            <Testimonials />
-            <Blog />
-            <Contacts />
-            <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <Navbar />
+      <Landing />
+      <About />
+      {/* <Experience /> */}
+      <Skills />
+      {/* <Services /> */}
+      <Education />
+      <Projects />
+      <Blog />
+      <Contacts />
+      <Footer />
+      {/* <Achievement /> */}
+      {/* <Testimonials /> */}
+    </div>
+  );
 }
 
-export default Main
+export default Main;
